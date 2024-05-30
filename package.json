@@ -1,0 +1,26 @@
+{
+  "name": "back-challenge-graphql",
+  "version": "1.0.0",
+  "description": "This is a quick coding challenge we designed to assess your qualifications as a potential back-end developer. It's important to note that this is by no means a test. We just want to get a sense of how you write code and solve problems.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@types/mysql": "^2.15.26",
+    "@types/sequelize": "^4.28.20",
+    "apollo-server": "^3.13.0",
+    "apollo-server-express": "^3.13.0",
+    "graphql": "^16.8.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.10.0",
+    "sequelize": "^6.37.3"
+  }
+}
